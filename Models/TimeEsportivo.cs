@@ -6,10 +6,10 @@ public class TimeEsportivo
     public int Id { get; set; }
 
     [Required]
-    public string Nome { get; set; } = string.Empty; // Evita null
+    public string Nome { get; set; } = string.Empty;
 
     [Required]
-    public string Modalidade { get; set; } = string.Empty; // Evita null
+    public string Modalidade { get; set; } = string.Empty;
 
     [Range(1, 100)]
     public int NumeroJogadores { get; set; }

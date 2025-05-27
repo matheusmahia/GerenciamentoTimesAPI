@@ -6,6 +6,5 @@ public class AppDbContext : DbContext
         : base(options)
     {
     }
-
     public DbSet<TimeEsportivo> TimesEsportivos { get; set; }
 }

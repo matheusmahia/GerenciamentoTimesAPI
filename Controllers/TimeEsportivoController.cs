@@ -13,7 +13,6 @@ public class TimeEsportivoController : ControllerBase
         _context = context;
     }
 
-    // GET - Listar todos os registros
     [HttpGet]
     public ActionResult<IEnumerable<TimeEsportivo>> GetTimes()
     {
@@ -25,7 +24,6 @@ public class TimeEsportivoController : ControllerBase
         return Ok(times);
     }
 
-    // GET - Buscar um registro específico pelo ID
     [HttpGet("{id}")]
     public ActionResult<TimeEsportivo> GetTime(int id)
     {
@@ -36,7 +34,6 @@ public class TimeEsportivoController : ControllerBase
         return Ok(time);
     }
 
-    // POST - Adicionar um novo registro
     [HttpPost]
     public ActionResult<TimeEsportivo> PostTime([FromBody] TimeEsportivo time)
     {
@@ -49,7 +46,6 @@ public class TimeEsportivoController : ControllerBase
         return CreatedAtAction(nameof(GetTime), new { id = time.Id }, time);
     }
 
-    // DELETE - Excluir um registro pelo ID
     [HttpDelete("{id}")]
     public IActionResult DeleteTime(int id)
     {
