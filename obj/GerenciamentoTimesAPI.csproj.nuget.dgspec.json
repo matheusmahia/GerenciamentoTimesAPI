@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mh746\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj": {}
+    "C:\\Users\\mh746\\OneDrive\\Área de Trabalho\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mh746\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj": {
+    "C:\\Users\\mh746\\OneDrive\\Área de Trabalho\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mh746\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mh746\\OneDrive\\Área de Trabalho\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj",
         "projectName": "GerenciamentoTimesAPI",
-        "projectPath": "C:\\Users\\mh746\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj",
+        "projectPath": "C:\\Users\\mh746\\OneDrive\\Área de Trabalho\\GerenciamentoTimesAPI\\GerenciamentoTimesAPI.csproj",
         "packagesPath": "C:\\Users\\mh746\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mh746\\GerenciamentoTimesAPI\\obj\\",
+        "outputPath": "C:\\Users\\mh746\\OneDrive\\Área de Trabalho\\GerenciamentoTimesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mh746\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [

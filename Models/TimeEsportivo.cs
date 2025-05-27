@@ -6,13 +6,15 @@ public class TimeEsportivo
     public int Id { get; set; }
 
     [Required]
-    public string Nome { get; set; }
+    public string Nome { get; set; } = string.Empty; // Evita null
 
     [Required]
-    public string Modalidade { get; set; }
+    public string Modalidade { get; set; } = string.Empty; // Evita null
 
     [Range(1, 100)]
-    public int NumeroDeJogadores { get; set; }
+    public int NumeroJogadores { get; set; }
 
-    public DateTime DataFundacao { get; set; }
+    [Required]
+    [Range(1800, 2100)]
+    public int AnoFundacao { get; set; }
 }
